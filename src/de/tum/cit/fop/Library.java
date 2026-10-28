@@ -53,8 +53,8 @@ public class Library {
                 ", location='" + location + '\'' +
                 '}';
     }
-    public  void getDisplayName(){
-        System.out.println(this.name+"Library ("+this.books+"books at "+this.location);
+    public String getDisplayName(){
+        return (this.name+"Library ("+this.books+"books at "+this.location);
     }
     public double getBooksPerHour(){
         return books/openingHours;
